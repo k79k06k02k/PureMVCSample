@@ -23,7 +23,7 @@ public class CharacterProxy : Proxy
 
 
     public new const string NAME = "CharacterProxy";
-    public new CharacterInfo Data { get; set; }
+    public CharacterInfo Data { get; set; }
 
     public CharacterProxy() : base(NAME)  
     {
